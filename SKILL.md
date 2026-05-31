@@ -1,12 +1,11 @@
 ---
 name: content-management
 description: Orchestrate content operations — manage articles, schedule social media, publish to YouTube, organize media library, optimize SEO, and run publishing workflows. Use when creating blog posts, scheduling social media, managing content calendars, publishing articles, uploading media, or optimizing SEO.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-cms server connected (WordPress, Contentful, YouTube, Twitter, LinkedIn, Meta, or Custom API).
 allowed-tools: [list_content, get_content, create_content, update_content, publish_content, unpublish_content, list_social_accounts, schedule_social_post, get_social_metrics, list_scheduled_posts, delete_scheduled_post]
-tags: [communication, cms, content, social-media, publishing, seo]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-cms
   revenue-impact: direct
